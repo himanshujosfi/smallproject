@@ -35,6 +35,7 @@ const MultiScreenForm = () => {
     }
     const handleCancle = () => {
         setScreen(0)
+        setFormData('')
     }
     return (
         <>
